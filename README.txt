@@ -46,7 +46,7 @@ time
 https://docs.python.org/3/library/time.html
 
 pygame
-https://numpy.org/
+https://www.pygame.org
 
 ----------------------------------------------------------------------------------------
 
