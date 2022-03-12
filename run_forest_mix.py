@@ -4,7 +4,7 @@
         
     Alex Ricciardi
     Professor: Dr. Beatty
-    COSC 2409.500
+    COSC 2409.500, Laramie County Community College
     03/10/2022
 
     Assignment: Midterm Project  
@@ -19,14 +19,16 @@
         - Create one IF condition and have said condition display via a print() - 15 pts
         - Create one non-endless While loop and have said condition of the loop display via a print() - 15 pts
 
-    Last semester I coded in java  a small animation call Run, Forest Run!
-    and ealier this semester I created, in python, a simmilar animation call Dance, Forest Dance!
-    For this assignement I created a smilar animation merging the previous one call:
+    Last semester I coded in java a small animation called Run, Forest Run!
+    and earlier this semester I created, in python, a similar animation called Dance, Forest Dance!
+    For this assignment I created a similar animation merging the previous one call:
     
                                                 Run Forest, Run! Mix 
-					  Based on the Forest Gump movie.
+		                             Based on the Forest Gump movie.
 
-   Create a small animation, using key board characters, of Forest Gump dancing and running on the console screen. With sound effects
+   Create a small animation, using keyboard characters,
+   of Forest Gump dancing and running on the console screen. With sound effects.
+
 
 
 run_forest_run.wav file:
@@ -96,7 +98,15 @@ dance = True
 # --- Functions ---
 
 def banner():
-    os.system('cls')
+
+    # Clear screen
+    # It is for MacOS and Linux(here, os.name is 'posix')
+    if os.name == 'posix':
+        _ = os.system('clear')
+    else:
+        # It is for Windows platfrom
+        _ = os.system('cls')
+
     print(banner_txt)
     print("\n" * 2)
 
