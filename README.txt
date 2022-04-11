@@ -6,27 +6,20 @@ Midterm Project: Dance and Run Forest!
     COSC 2409.500, Laramie County Community College
     03/10/2022
 
-    Assignment: Midterm Project  
-    Due on March 13th, 2022, at 11:59 PM
+    Python projects
+ 
 
-        - Create, and save, a file in the .py format - 10 pts
-        - Import the import os at the top of your code - 10 pts
-        - Create three str vars - 2 pts
-        - Create three int vars - 2 pts
-        - Create one Bool var - 2 pts
-        - Create at least one line with a display of a str or int var - 4 pts
-        - Create one IF condition and have said condition display via a print() - 15 pts
-        - Create one non-endless While loop and have said condition of the loop display via a print() - 15 pts
-
-    Last semester I coded in java a small animation called Run, Forest Run!
+    Last semester I coded, in java a small console animation, using key bord chatrecterts, called Run, Forest Run!
     and earlier this semester I created, in python, a similar animation called Dance, Forest Dance!
-    For this assignment I created a similar animation merging the previous one call:
+    Then I created a similar animation merging the previous one called Run Forest, Run! Mix.
+    And finaly, I created the following similar animation.
     
-                            Run Forest, Run! Mix 
-		       Based on the Forest Gump movie.
+                                            Ask Forest!
 
-  Create a small animation, using keyboard characters, of Forest Gump dancing and running on the console screen. 
-  With sound effects.
+    Based on the Forest Gump movie.
+
+   Create a small animation, using keyboard characters,
+   in this simulation you can ask Forest Gump to run and dance for you.
 
 ----------------------------------------------------------------------------------------
 
@@ -64,9 +57,11 @@ os.system('cls')  or os.system('clear')  will not clear the console screen.
 Project map:
 
 Python Code Lines File:
+ask_forest.py
 run_forest_mix.py
 
 Executable file:
+ask_forest.exe
 run_forest_mix.exe
 
 Sound files:

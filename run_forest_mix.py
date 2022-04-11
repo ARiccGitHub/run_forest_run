@@ -19,7 +19,7 @@
         - Create one IF condition and have said condition display via a print() - 15 pts
         - Create one non-endless While loop and have said condition of the loop display via a print() - 15 pts
 
-    Last semester I coded in java a small animation called Run, Forest Run!
+    Last semester I coded, in java a small console animation, using key bord chatrecterts, called Run, Forest Run!
     and earlier this semester I created, in python, a similar animation called Dance, Forest Dance!
     For this assignment I created a similar animation merging the previous one call:
     
@@ -29,7 +29,8 @@
    Create a small animation, using keyboard characters,
    of Forest Gump dancing and running on the console screen. With sound effects.
 
-
+Project GitHub:
+https://github.com/ARiccGitHub/run_forest_run
 
 run_forest_run.wav file:
 https://www.myinstants.com/instant/run-forest-run/
